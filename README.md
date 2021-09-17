@@ -43,7 +43,8 @@ Please use `scripts/clean_corpus.py` to clean the ARC-Corpus to remove noisy sen
 
 `bash cache_vector.sh`
 
-Once get all preprocessed, you will get the following directory
+Once get all preprocessed, you will get the following directory:
+
     - Data/
         - begin/
 	    - obqa/
