@@ -1,4 +1,4 @@
-# AMR-SG
+# CGR
 
 Code for our **EMNLP Findings 2021** paper,
 
