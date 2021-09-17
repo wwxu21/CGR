@@ -47,11 +47,11 @@ Once get all preprocessed, you will get the following directory:
 
     - Data/
         - begin/
-	    - obqa/
-            	- train.jsonl
-            	- dev.jsonl
-            	- test.jsonl
-            	- core.dict (amr file)
+            - obqa/
+                - train.jsonl
+                - dev.jsonl
+                - test.jsonl
+                - core.dict (amr file)
                 - core.npy (vector file)
                 - obqa.dict
                 - obqa.npy
