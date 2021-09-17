@@ -10,9 +10,9 @@ Weiwen Xu, Yang Deng, Huihui Zhang, Deng Cai and Wai Lam.
 We present the results on [OpenBookQA](https://leaderboard.allenai.org/open_book_qa/submissions/get-started) and [ARC-Challenge](https://allenai.org/data/arc) in our paper. Due to the license issue, please directly download the datasets from their corresponding websites.
 
 ## Data Annotation
- We use [this repo](https://github.com/kelvinguu/qanli) as our hypothesis generator and [AMR-gs](https://github.com/jcyk/AMR-gs) as our AMR parser. Please follow their instructions to annotate hypothesis and AMR for the datasets respectively.
+We use [this repo](https://github.com/kelvinguu/qanli) as our hypothesis generator and [AMR-gs](https://github.com/jcyk/AMR-gs) as our AMR parser. Please follow their instructions to annotate hypothesis and AMR for the datasets respectively.
 
-    Once annotated, please organize the annotated files in the following directory (e.g. OpenBookQA)
+Once annotated, please organize the annotated files in the following directory (e.g. OpenBookQA)
     - Data/
         - OpenBook/
             - train-complete.jsonl (train/dev/test original datasets)
@@ -42,7 +42,7 @@ Please use `scripts/clean_corpus.py` to clean the ARC-Corpus to remove noisy sen
 
 `bash cache_vector.sh`
 
-    Once get all preprocessed, you will get the following directory
+Once get all preprocessed, you will get the following directory
     - Data/
         - begin/
 	    - obqa/
@@ -50,9 +50,9 @@ Please use `scripts/clean_corpus.py` to clean the ARC-Corpus to remove noisy sen
             	- dev.jsonl
             	- test.jsonl
             	- core.dict (amr file)
-		- core.npy (vector file)
-		- obqa.dict
-		- obqa.npy
+                - core.npy (vector file)
+                - obqa.dict
+                - obqa.npy
 ## Training
 `bash finetune.sh`
 
