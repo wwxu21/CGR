@@ -13,6 +13,7 @@ We present the results on [OpenBookQA](https://leaderboard.allenai.org/open_book
 We use [this repo](https://github.com/kelvinguu/qanli) as our hypothesis generator and [AMR-gs](https://github.com/jcyk/AMR-gs) as our AMR parser. Please follow their instructions to annotate hypothesis and AMR for the datasets respectively.
 
 Once annotated, please organize the annotated files in the following directory (e.g. OpenBookQA)
+
     - Data/
         - OpenBook/
             - train-complete.jsonl (train/dev/test original datasets)
