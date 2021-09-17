@@ -51,8 +51,8 @@ Once get all preprocessed, you will get the following directory:
                 - train.jsonl
                 - dev.jsonl
                 - test.jsonl
-                - core.dict (amr file)
-                - core.npy (vector file)
+                - core.dict (AMR file for core facts)
+                - core.npy (vector file for core facts)
                 - obqa.dict
                 - obqa.npy
 ## Training
